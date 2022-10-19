@@ -1,11 +1,44 @@
+
+
+
+
 body{
-    font-family: 'Cormorant Garamond', serif;
-    background-color: #F2F2F2; 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F2E8DC; 
     color: #1A2601;
 
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30pt ;
+}
+
+header{
+    text-align: center;
+}
+
+#hero,footer{
+    
+    color: antiquewhite;
+    border: 5px solid #647356;
+    background-color: #22403A;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#hero img{
+    width: 200px;
+}
+
+#bio
+{
+    text-align: center;
+}
+
+#footer{
+
+    text-align: center;
 
 }
