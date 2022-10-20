@@ -11,11 +11,18 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family:'Arsenal', sans-serif;
-    font-size:30pt ;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 40pt;
+    text-align: left;
+    padding-left: 10pt;
 }
 
 header{
-    text-align: center;
+    text-align:right;
 }
 
 #hero,footer{
@@ -34,11 +41,19 @@ header{
 
 #bio
 {
-    text-align: center;
+    text-align:left;
+    padding-left: 20pt;
 }
 
 #footer{
 
     text-align: center;
 
+}
+
+#hobbies{
+    text-align:justify;
+    padding: 2pt;
+    padding-bottom: 4pt;
+    color: #1B3946;
 }
