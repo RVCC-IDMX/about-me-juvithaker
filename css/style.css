@@ -25,6 +25,8 @@ header{
     text-align:right;
 }
 
+/* hero section */
+
 #hero,footer{
     
     color: antiquewhite;
@@ -39,11 +41,15 @@ header{
     width: 200px;
 }
 
+/* bio section */
+
 #bio
 {
     text-align:left;
     padding-left: 20pt;
 }
+
+/* footer section */
 
 #footer{
 
@@ -51,9 +57,38 @@ header{
 
 }
 
+/* hobbies section */
+
 #hobbies{
     text-align:justify;
     padding: 2pt;
     padding-bottom: 4pt;
     color: #1B3946;
 }
+
+/* gallery section */
+
+#gallery img{
+    max-width: 100%;
+    
+    
+}
+
+#gallery{
+    text-align: right;
+    
+}
+
+#left{
+    text-align: left;  
+}
+
+#center{
+    text-align: center; 
+}
+
+#right{
+    text-align: right; 
+}
+
+
