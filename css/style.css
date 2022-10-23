@@ -51,7 +51,7 @@ header{
     line-height: 1.5;
     border-radius: 25px;
     border: 5px solid #1A2601;
-    text-align:left;
+    text-align:center;
     padding-left: 20pt;
     
 }
@@ -65,6 +65,12 @@ header{
 }
 
 /* hobbies section */
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #hobbies{
     margin-top: 1rem;
@@ -124,6 +130,23 @@ header{
     font-size: 4em;
     line-height: .65;
 
+}
+
+@media screen and(min-width: 60em)
+{
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
 
 
