@@ -129,8 +129,14 @@ section#hobbies {
     float: left;
     font-size: 4em;
     line-height: .65;
+    font-size: 3em;
+    padding: 0.25em;
+    margin-right: 0.25em;
+
 
 }
+
+/* tablet size */
 
 @media screen and(min-width: 60em)
 {
@@ -147,6 +153,17 @@ section#hobbies {
         font-size: 2rem;
         margin-left: 1rem;
     }
+}
+
+figure img
+{
+    width:100%
+}
+
+#lit div
+{
+    max-width: 100%;
+    columns: 20rem;
 }
 
 
