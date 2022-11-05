@@ -172,3 +172,9 @@ figure img
     color: #1B3946;
 }
 
+/* Contact Form */
+
+#formElements
+{
+    display:grid;
+}
