@@ -132,6 +132,7 @@ section#hobbies {
     font-size: 3em;
     padding: 0.25em;
     margin-right: 0.25em;
+    text-align: center;
 
 
 }
@@ -168,6 +169,8 @@ figure img
 }
 
 #video{
+    padding-left: 5m;
+    padding-right: 5em;
     text-align: center; 
     color: #1B3946;
 }
