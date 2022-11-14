@@ -17,7 +17,7 @@ main {
 }
 /* navbar */
 .navbar {
-    background-color: #333;
+    background-color: black;
     color: whitesmoke;
     display: flex;
     align-items: center;
