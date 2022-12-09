@@ -79,5 +79,6 @@ such that no text wraps
 .navbar ul {
     display: flex;
     justify-content: space-between;
-    }
+}
+
 }
