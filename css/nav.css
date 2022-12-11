@@ -17,7 +17,7 @@ main {
 }
 /* navbar */
 .navbar {
-    background-color: black;
+    background-color: #F2E8DC;
     color: whitesmoke;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ main {
 */
 .navbar-links a {
     color: whitesmoke;
-    background-color: #333;
+    background-color:#1B3946;
     font-size: 1.5rem;
     padding: 1rem .5rem;
     letter-spacing: 1.5px;

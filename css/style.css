@@ -6,6 +6,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #F2E8DC; 
     color: #1A2601;
+    text-align: center;
 
 
 }
@@ -21,6 +22,7 @@ h1{
     text-decoration-line: overline;
     font-size: 40pt;
     text-align: left; 
+    color: #22403A;
     padding-left: 10pt;
 }
 
@@ -37,10 +39,13 @@ header{
     background-color: #22403A;
     text-align: center;
     padding: 10px;
+    size: 2cm;
+    line-height: 1;
     
 }
 
 #hero img{
+    float: left;
     width: 200px;
 }
 
@@ -48,12 +53,14 @@ header{
 
 #bio
 {
+    
     margin-top: 1rem;
     line-height: 1.5;
     border-radius: 25px;
     border: 5px solid #1A2601;
     text-align:center;
     padding-left: 20pt;
+   
     
 }
 
@@ -79,11 +86,23 @@ section#hobbies {
     border: 5px solid #647356;
     border-radius: 25px;
     text-align:justify;
-    padding: 2pt;
+    padding-right: 20pt;
     padding-bottom: 4pt;
     color: #1B3946;
 }
 
+#gallery2{
+    float: left;
+    width: 300px;
+    scale: 70%;
+    padding-left: 2cm;
+}
+
+#gallery2 img:hover{
+    opacity: 0.5;
+}
+
+    
 /* gallery section */
 
 #gallery img{
@@ -120,7 +139,11 @@ section#hobbies {
     padding: 3 rem;
     max-width: 50rem;
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #F2E8DC;
+    background-color: #1B3946;
 
 }
 
@@ -170,9 +193,9 @@ figure img
 }
 
 #video{
+    align-items: center;
     text-align: center;
-    padding-left: 5m;
-    padding-right: 5em;
+    padding-top: 2cm;
     color: #1B3946;
     max-width: 100%;
 }
@@ -181,6 +204,7 @@ figure img
 
 #formElements
 {
+    text-align: left;
     display:grid;
     row-gap: .5em;
 }
@@ -207,21 +231,25 @@ legend{
 #contact input, #contact textarea, #contact select, #contact button{
     padding: .5em;
     font-size: 1rem;
+    text-align: left;
 }
 
 #contact ul
 {
     list-style:none;
     padding: 0px;
+    text-align: left;
 }
 
 #contact li
 {
     margin:1rem;
+    text-align: left;
 }
 
 #contact button{
     background-color:#1B3946;
     color:#F2E8DC;
-}
     
+}
+
