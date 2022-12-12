@@ -1,6 +1,8 @@
 # About Me Project
 
-Welcome! Welcome! I'm Juvina Thaker and this is my finals project from my Web Dev 1 class.
+Welcome! Welcome! I'm Juvina Thaker and this is my finals project from my Web Dev 1 class. 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39ea8934-bbf3-4587-9c20-a257fb94410e/deploy-status)](https://app.netlify.com/sites/about-me-juvithaker/deploys)
 
 ## Color Palette
 
