@@ -40,9 +40,14 @@ header{
     background-color: #22403A;
     text-align: left;
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     size: 2cm;
+    text-indent: 1cm;
+    text-align: right;
     line-height: 1.5;
+    padding-bottom: 20px;
     
 }
 
@@ -83,6 +88,7 @@ section#hobbies {
 }
 
 #hobbies{
+    text-indent: 1cm;
     margin-top: 1rem;
     line-height: 1.5;
     border: 5px solid #647356;
@@ -254,4 +260,92 @@ legend{
     color:#F2E8DC;
     
 }
+
+.navbar {
+    border-bottom: 1px solid;
+  
+    &__toggle {
+        position: absolute;
+        cursor: pointer;
+        margin: 0rem 1rem;
+        right: 0;
+
+
+      svg {
+        width: 1.5rem;
+      }
+  
+      .close {
+        display: none;
+      }
+  
+      .menu {
+        margin-top: 0.2rem;
+      }
+    }
+  
+    &__checkbox {
+      display: none;
+    }
+  
+    & __menu {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      margin: 1rem;
+  
+      li {
+        list-style: none;
+        display: none;
+  
+        &:first-child {
+          margin-right: auto;
+          display: block;
+        }
+      }
+  
+      a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.2rem;
+      }
+  
+      svg {
+        width: 1.5rem;
+        fill: $clr-gray600;
+      }
+    }
+  }
+  
+  // Toggle the hamburger menu in mobile view
+  #nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+  }
+  
+  //Change from menu to close icon on tap
+  #nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+  }
+  
+  #nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+  }
+  
+  // Desktop view
+  @media only screen and (min-width: 560px) {
+    .nav {
+      &__toggle {
+        display: none;
+      }
+  
+      &__menu {
+        flex-direction: row;
+  
+        li {
+          display: block;
+        }
+      }
+    }
+  }
 
